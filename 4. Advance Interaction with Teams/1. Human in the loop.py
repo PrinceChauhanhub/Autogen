@@ -1,3 +1,13 @@
+## The state of the team is unstable and the progress is hold up until the user provides a feedback or say error out. 
+# Because of this blocking approach, it is not recommended that ,we use it only for short interactions
+
+
+## whenever chatgpt ask for which response u prefer....it means there is human in the loop concept there... 
+## most common is where we ask user for are u denied or approve
+
+
+# case 1 -  the below code is when ask user during the run.
+
 import asyncio
 from autogen_core import CancellationToken
 from autogen_ext.models.openai import OpenAIChatCompletionClient
